@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\kyren.zhang-ext\source\repos\GLStudy_22_8_2\OpenGLRoot\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\kyren.zhang-ext\source\repos\GLStudy_22_8_2\OpenGLRoot\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\OpenGLRoot\include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\OpenGLRoot\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
